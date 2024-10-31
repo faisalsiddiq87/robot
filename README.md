@@ -49,7 +49,10 @@ This solution aims to:
 
 - Development Mode: `npm run dev`
 - CommandLine Mode: `npm run move:robot validCommands.txt`
-- CommandLine Mode with multiple arguments/test data files: `npm run move:robot cmds.txt`, `npm run move:robot noReport.txt`, `npm run move:robot ignorePrePlace.txt`
+- CommandLine Mode multiple other available test data files: 
+   - `npm run move:robot cmds.txt`
+   - `npm run move:robot noReport.txt`
+   - `npm run move:robot ignorePrePlace.txt`
 - Linting: `npm run lint`
 - Linting Fix: `npm run lint:fix`
 - Testing: `npm run test`
