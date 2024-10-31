@@ -53,6 +53,8 @@ This solution aims to:
    - `npm run move:robot cmds.txt`
    - `npm run move:robot noReport.txt`
    - `npm run move:robot ignorePrePlace.txt`
+   - `npm run move:robot junkCommands.txt`
+   - `npm run move:robot junkAndCorrectCmd.txt`
 - Linting: `npm run lint`
 - Linting Fix: `npm run lint:fix`
 - Testing: `npm run test`

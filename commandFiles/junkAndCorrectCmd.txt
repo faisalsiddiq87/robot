@@ -1,0 +1,11 @@
+sadasdd
+dasdas
+dsada
+PLACE 0,1,EAST
+dasda
+PLACE 2,2,SOUTH
+sadsa
+RIGHT
+sda
+MOVE
+REPORT
