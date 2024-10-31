@@ -10,7 +10,7 @@ This solution aims to:
 
 - ✨ Reduce setup time for new projects
 - 📊 Ensure code consistency and quality
-- ⚡  Facilitate rapid development
+- ⚡ Facilitate rapid development/changes
 - 🛡️ Encourage best practices in security, testing, and performance
 
 ## 🚀 Features
@@ -63,7 +63,7 @@ This solution aims to:
 
 - The solution aims to provide a solution for a moving toy robot simulation on a square table
 - The table dimensions are configured via env variables `MAX_X_AXIS`, `MAX_Y_AXIS`
-- The valid commands to move a robot i.e: `PLACE 0,4`, `NORTH`, `MOVE`, `LEFT`, `RIGHT`, `REPORT` are injected via cmd files hosted in the `commandFiles` directory
-- The application gets command file's Name `validCommands.txt` from CLI command i.e: `npm run move:robot validCommands.txt` and starts evaluation of moves for robot on square table; only if a valid table is configured, valid commands exist in file and robot can move around.
+- The valid commands to move a robot i.e: `PLACE 0,4,NORTH`, `MOVE`, `LEFT`, `RIGHT`, `REPORT` are injected via cmd files hosted in the `commandFiles` directory
+- The application gets command file Name from CLI command `npm run move:robot validCommands.txt` i.e: `validCommands.txt`  and starts evaluation of moves for robot on square table; provided if a valid square table is available, valid place and move etc commands exist in file and robot can move around.
 
 🎉 Happy evaluation!
