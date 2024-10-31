@@ -61,4 +61,4 @@ This solution aims to:
 - The valid commands to move a robot i.e: `PLACE 0,4`, `NORTH`, `MOVE`, `LEFT`, `RIGHT`, `REPORT` are injected via cmd files hosted in the `commandFiles` directory
 - The application gets command file's Name `validCommands.txt` from CLI command i.e: `npm run move:robot validCommands.txt` and starts evaluation of moves for robot on square table; only if a valid table is configured, valid commands exist in file and robot can move around.
 
-🎉 Happy evalaution!
+🎉 Happy evaluation!
